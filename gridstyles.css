@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*                          GRID                          */
+
+.gridcont{
+	display: grid;
+	width: 100%;
+	grid-template-areas:
+		'gridhead gridhead gridhead'
+		'gridleft gridmain gridmain'
+		'gridfoot gridfoot gridfoot';
+	gap: 5px;
+	padding: 5px 0px 0px 0px;
+}
+
+.gridhead {
+	grid-area: gridhead;
+}
+
+.gridmain {
+	grid-area: gridmain;
+}
+
+.gridfoot {
+	grid-area: gridfoot;
+}

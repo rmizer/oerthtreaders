@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+form {
+	min-width: 300px;
+	max-width: 60%;
+	margin: auto;
+	padding: 15px 15px 15px 15px;
+	border: outset #374d00 2px;
+	border-radius: 10px;
+	text-align: center;
+	background-color: #becd9a;
+	color: #3d5400;
+	font-weight: bold;
+	font-family: serif;
+}
+
+label {
+	line-height: .90em;
+	font-family: serif;
+	text-transform: uppercase;
+	margin: 0px;
+	padding: 0px;
+}
+
+#dndyes + label
+{
+	text-transform: none;
+}
+
+#dndno + label
+{
+	text-transform: none;
+}
+
+.ST {
+	color: gray;
+}
+
+#formtitle {
+	margin-bottom: 0px;
+}
+
+#upcoming {
+	padding-left: 20px;
+	border-left: outset #517100 5px;
+	border-radius: 5px;
+}
+
+input, textarea, select {
+	background-color: #ece8d4;
+	border-radius: 5px;
+	margin-top: 0px;
+	padding-top: 0px;
+	margin-bottom: 10px;
+	font-family: serif;
+	font-size: 1em;
+}

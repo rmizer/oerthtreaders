@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*                          GRID                          */
+
+.gridcont{
+	display: inline-grid;
+	width: 100%;
+	grid-template-areas:
+		'gridhead gridhead gridhead'
+		'gridleft gridtitle gridtitle'
+		'gridleft gridmain gridmain'
+		'gridfoot gridfoot gridfoot';
+	gap: 0px;
+}
+
+.gridhead {
+	grid-area: gridhead;
+}
+
+.gridleft {
+	grid-area: gridleft;
+	border-radius: 10px;
+}
+
+.gridmain {
+	grid-area: gridmain;
+}
+
+.gridfoot {
+	grid-area: gridfoot;
+	text-align: center;
+}
+
+.map {
+	width: 40%;
+	text-align: center;
+	vertical-align: top;
+	padding: 15px;
+}
+
+.smallmap {
+	width: 100%;
+	border: solid transparent 2px;
+	border-radius: 10px;
+}
+
+.smallmap:hover {
+	cursor: zoom-in;
+	border: solid #517100 2px;
+	border-radius: 10px;
+}
+
+.lorelabel {
+	margin: auto;
+	background-color: #517100;
+	border: solid #517100 3px;
+	border-radius: 10px;
+	width: 350px;
+	font-size: 1em;
+}
+
+.cap {
+	font-size: .80em;
+	text-transform: uppercase;
+	font-family: serif;
+	font-weight: bold;
+}
