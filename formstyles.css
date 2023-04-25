@@ -2,10 +2,7 @@
 /* CSS Document */
 
 form {
-	min-width: 300px;
-	max-width: 60%;
-	margin: auto;
-	padding: 15px 15px 15px 15px;
+	padding: 5px;
 	border: outset #374d00 2px;
 	border-radius: 10px;
 	text-align: center;
@@ -41,8 +38,12 @@ label {
 	margin-bottom: 0px;
 }
 
-#upcoming {
-	padding-left: 20px;
+.upcoming {
+	display: inline-table;
+	margin-left: 10px;
+	padding-left: 10px;
+	min-width: 50%;
+	max-width: 70%;
 	border-left: outset #517100 5px;
 	border-radius: 5px;
 }
@@ -55,4 +56,13 @@ input, textarea, select {
 	margin-bottom: 10px;
 	font-family: serif;
 	font-size: 1em;
+}
+
+main {
+	width: 100%;
+}
+
+table {
+	width: 100%;
+	margin: 0px 20px 0px 20px;
 }
