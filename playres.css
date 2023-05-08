@@ -62,13 +62,16 @@ a {
     margin-top: 5px;
 }
 
-h6 {
-    font-size: 0.8em;
-    color: olive;
+.rec {
+    font-size: 0.9em;
+    background-color: rgba(77, 77, 0, 0.5);
+    width: 180px;
+    border-radius: 10px;
+    color: white;
+    font-family: serif;
     text-align: center;
-    width: 60%;
     margin: auto;
-    margin-bottom: -20px;
+    margin-bottom: 5px;
 }
 
 .apptitle {
@@ -111,7 +114,8 @@ h6 {
 
 .appicocont {
     display: inline-block;
-    width: 40%;
+    min-width: 90px;
+    max-width: 110px;
     margin: 0px 3px 0px 3px;
 }
 
