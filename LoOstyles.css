@@ -636,3 +636,44 @@ h6 {
 	font-variant: small-caps;
 	line-height: 0.8em;
 }
+
+
+/*							TALES								*/
+
+.stories a {
+	color: #293800;
+}
+
+.stsub {
+	text-align: center;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	font-size: 0.9em;
+	line-height: 0.9em;
+	font-weight: bolder;
+	color: #003500;
+}
+
+.sttitle {
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: bolder;
+	width: 30%;
+	margin: auto;
+	border: 3px solid #3d5400;
+	background-color: rgb(255, 238, 216);
+	border-radius: 10px;
+}
+
+.stdesc {
+	text-align: center;
+	font-size: 0.9em;
+	line-height: 1em;
+	font-family: serif;
+	width: 30%;
+	border: 2px ridge #3d5400;
+	border-radius: 5px;
+	background-color: rgb(255, 231, 200);
+	margin: 0px auto 0px auto;
+	padding: 5px;
+}
