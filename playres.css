@@ -1,0 +1,213 @@
+table {
+    margin: auto;
+    width: 85%;
+}
+
+h4 {
+    margin: 5px 5px 5px 5px;
+    padding: 0px;
+    background-color: green;
+    border-radius: 5px;
+    color: white;
+}
+
+tr {
+    height: 50%;
+}
+
+td {
+    text-align: center;
+}
+
+.inner {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 5px ridge rgb(143, 167, 143);
+    margin: 10px;
+    border-radius: 10px;
+    min-height: 400px;
+}
+
+.DLres {
+    width: 85%;
+    margin: auto;
+}
+
+.DLres img {
+    width: 100px;
+    margin: 0px auto 0px auto;
+    vertical-align: top;
+}
+
+a {
+    line-height: 0.9em;
+    font-size: 0.8em;
+    font-family: serif;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.CCG {
+    padding: 2px;
+    border: 5px green ridge;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #cad3b9;
+    width: 20%;
+    margin: 0px auto 5px auto;
+}
+
+.CCG img {
+    width: 60%;
+    margin-top: 3px;
+}
+
+.CCG a {
+    line-height: 0.9em;
+    font-size: 0.7em;
+    font-weight: bold;
+    background-color: beige;
+    border-radius: 10px;
+    padding: 4px;
+    width: 70%;
+    margin: auto;
+}
+
+h6 {
+    font-size: 0.8em;
+    color: olive;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    margin-bottom: -20px;
+}
+
+.apptitle {
+    text-align: center;
+    font-weight: bolder;
+    border: 3px solid green;
+    border-radius: 5px;
+    width: 60%;
+    margin: auto;
+    background-color: green;
+    color: white; 
+    padding: 2px;
+    text-transform: uppercase;
+    line-height: 0.95em;
+}
+
+.appdesc {
+    text-align: justify;
+    font-size: 0.9em;
+    line-height: 0.93em;
+    font-family: serif;
+    margin: auto;
+    width: 75%;
+    margin-top: -2px;
+    margin-bottom: 5px;
+    border: 3px solid green;
+    color: white;
+    border-radius: 5px;
+    padding: 4px;
+    background-color: #89af89;
+}
+
+.appicoouter {
+    border: 3px solid green;
+    border-radius: 5px;
+    width: 77%;
+    margin: -10px auto 0px auto;
+    background-color: #89af89;
+}
+
+.appicocont {
+    display: inline-block;
+    width: 40%;
+    margin: 0px 3px 0px 3px;
+}
+
+.appicocont img {
+    width: 100%;
+}
+
+.appicocont img:hover {
+    box-shadow: 0 0 10px green;
+}
+
+.imgcont img {
+    border: 1px solid black;
+    float: left;
+    width: 100px;
+    height: 75px;
+    margin-left: 10px;
+}
+
+.galldesc {
+    border-radius: 5px;
+    color: white;
+    text-align: justify;
+    font-family: serif;
+    font-size: 0.9em;
+    line-height: 0.95em;
+    padding: 5px;
+}
+
+.tag {
+    font-size: 0.7em;
+    color: olive;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    font-family: serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.fav {
+    background-color: rgba(255,255,255, 0.7);
+    border-radius: 25px;
+    max-width: 85%;
+    min-width: 60%;
+    padding: 20px;
+    border: 5px ridge green;
+}
+
+.left {
+    width: 30%;
+}
+
+.leftimgcont img {
+    width: 100%;
+    border-radius: 5px;
+    border: ridge 3px green;
+}
+
+.leftimgcont {
+    margin-right: 15px;
+}
+
+.favtitle {
+    font-weight: bolder;
+
+    font-size: 1em;
+    text-align: center;
+    color: green;
+    margin-bottom: 0px;
+}
+
+.desc {
+    width: 70%;
+}
+
+.desc p {
+    font-family: serif;
+    font-size: 0.9em;
+    line-height: 0.95em;
+    text-align: justify;
+}
+
+.bigger {
+    font-size: 1.4em;
+    color: olive;
+    text-transform: none;
+}

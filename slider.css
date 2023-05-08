@@ -4,9 +4,9 @@
 #slider
 {
 	overflow: hidden;
-	width: 1000px;
+	width: 830px;
 	margin: auto;
-	border: solid #517100 2px;
+	border: inset #517100 3px;
 	border-radius: 10px;
 	text-align: center;
 }
@@ -21,6 +21,7 @@
 
 #slider figure img {
 	float: left;
+	width: 830px;
 }
 
 @keyframes slider {

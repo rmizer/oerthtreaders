@@ -66,3 +66,16 @@ table {
 	width: 100%;
 	margin: 0px 20px 0px 20px;
 }
+
+.grouptitle {
+	text-align: center;
+	font-weight: bolder;
+	text-transform: uppercase;
+	font-family: ferrum;
+	color:#374d00;
+	font-size: 2em;
+	transform: scale(1, 0.7);
+	text-shadow: 0px 0px 5px white;
+	margin: 0px;
+	padding: 0px;
+}

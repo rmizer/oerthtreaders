@@ -1,37 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 
-/*                          GRID                          */
-
-.gridcont{
-	display: inline-grid;
-	width: 100%;
-	grid-template-areas:
-		'gridhead gridhead gridhead'
-		'gridleft gridtitle gridtitle'
-		'gridleft gridmain gridmain'
-		'gridfoot gridfoot gridfoot';
-	gap: 0px;
-}
-
-.gridhead {
-	grid-area: gridhead;
-}
-
-.gridleft {
-	grid-area: gridleft;
-	border-radius: 10px;
-}
-
-.gridmain {
-	grid-area: gridmain;
-}
-
-.gridfoot {
-	grid-area: gridfoot;
-	text-align: center;
-}
-
 .map {
 	width: 40%;
 	text-align: center;

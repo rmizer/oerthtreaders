@@ -64,6 +64,7 @@
     display: inline-block;
 	vertical-align: middle;
 	opacity: 0.75;
+	border: 5px ridge gray;
 }
 
 .tall {
